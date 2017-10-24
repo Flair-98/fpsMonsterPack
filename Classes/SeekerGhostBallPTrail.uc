@@ -1,0 +1,37 @@
+class SeekerGhostBallPTrail extends xEmitter;
+
+defaultproperties
+{
+     mStartParticles=0
+     mMaxParticles=15000
+     mLifeRange(0)=1.250000
+     mLifeRange(1)=1.250000
+     mRegenRange(0)=50.000000
+     mRegenRange(1)=50.000000
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mMassRange(0)=-0.030000
+     mMassRange(1)=-0.010000
+     mRandOrient=True
+     mSpinRange(0)=-75.000000
+     mSpinRange(1)=75.000000
+     mSizeRange(0)=100.000000
+     mSizeRange(1)=100.000000
+     mGrowthRate=13.000000
+     mColorRange(1)=(B=210,G=110)
+     mAttenFunc=ATF_ExpInOut
+     mRandTextures=True
+     mNumTileColumns=1
+     mNumTileRows=1
+     CullDistance=100000.000000
+     Physics=PHYS_Trailer
+     Skins(0)=Texture'shock_sparkle'
+     Style=STY_Translucent
+     LightType=LT_Steady
+     LightEffect=LE_QuadraticNonIncidence
+     LightHue=192
+     LightSaturation=85
+     LightBrightness=255.000000
+     LightRadius=50.000000
+     bDynamicLight=True
+}

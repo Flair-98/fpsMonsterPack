@@ -1,0 +1,35 @@
+class MonstaEffect extends xEmitter;
+
+defaultproperties
+{
+     mParticleType=PT_Mesh
+     mStartParticles=10
+     mMaxParticles=10
+     mLifeRange(0)=1.000000
+     mLifeRange(1)=1.000000
+     mRegenRange(0)=3.000000
+     mRegenRange(1)=3.000000
+     bSuspendWhenNotVisible=False
+     mPosDev=(X=10.000000,Y=10.000000,Z=10.000000)
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mPosRelative=True
+     mAirResistance=0.000000
+     mRandOrient=True
+     mSizeRange(0)=1.100000
+     mSizeRange(1)=1.100000
+     mGrowthRate=2.000000
+     mColorRange(0)=(B=29,G=65,R=53)
+     mColorRange(1)=(B=16,G=237,R=27)
+     mAttenKa=0.500000
+     mAttenFunc=ATF_ExpInOut
+     mMeshNodes(0)=StaticMesh'ParticleMeshes.Simple.ParticleSphere3'
+     bTrailerSameRotation=True
+     bNetTemporary=False
+     bReplicateMovement=False
+     Physics=PHYS_Trailer
+     RemoteRole=ROLE_SimulatedProxy
+     LifeSpan=1.200000
+     Skins(0)=FinalBlend'XEffectMat.Shock.ShockElecRingFB'
+     Style=STY_Modulated
+}
