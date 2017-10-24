@@ -36,3 +36,6 @@ MonsterTable=Class'fpsMonsterPack.SmallStoneTitan'-----------------------Small S
 MonsterTable=Class'fpsMonsterPack.SmallTitan'----------------------------Small Titan
 MonsterTable=Class'fpsMonsterPack.SmallWarlord'--------------------------Small Warlord
 MonsterTable=Class'fpsMonsterPack.SuperGhostBall'------------------------Super GhostBall
+MonsterTable=Class'fpsMonsterPack.Reaper'--------------------------------Reaper
+
+

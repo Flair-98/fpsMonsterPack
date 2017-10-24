@@ -36,6 +36,7 @@ class Exec extends Emitter;
 #exec TEXTURE IMPORT FILE="Images\MechTitanDetail.bmp" NAME="MechTitanDetail"
 #exec TEXTURE IMPORT FILE="Images\ChuckedFire.pcx" NAME="ChuckedFire"
 #exec TEXTURE IMPORT FILE="Images\FireLifeMap.pcx" NAME="FireLifeMap"
+#exec TEXTURE IMPORT FILE="Images\ReaperFinal.dds" NAME="ReaperFinal" DXT=5 ALPHA=1
 
 //Import Sounds
 #exec AUDIO IMPORT FILE="sounds\BenderShot.WAV" NAME="BenderShot"
